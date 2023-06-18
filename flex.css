@@ -1,0 +1,183 @@
+body {
+    background-color: grey;
+}
+
+* {
+    margin: 0px;
+}
+
+.main {
+
+    height: 1000px;
+    width: 1500px;
+    background-color: #fff;
+    margin-left: 10px;
+
+}
+
+.title {
+    width: inherit;
+    height: 70px;
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+
+}
+
+.name {
+    height: 70px;
+    width: 750px;
+    gap: 30px;
+    display: flex;
+ align-items: center;
+}
+
+.icon {
+    height: 60px;
+    width: 90px;
+    border-radius: 7px;    
+    background-image: url(../images/download.png);
+
+}
+
+.ww {
+    color:white;
+    font-size: xx-large;
+    font-family:cursive;
+}
+.som { height: 70px;
+    width: 750px;
+    display: flex;
+   justify-content: flex-end;
+   gap: 20px;
+   align-items: center;
+}
+
+
+.sm {
+    width: 60px;
+    height: 60px;
+    gap: 20px;
+    border-radius: 50%;
+
+}
+
+.sm1 {
+  
+    background-image: url(../images/insta.png);
+}
+
+.sm2 {
+    
+    margin-right: 10px;
+    background-image: url(../images/twitter.png);
+}
+.sm:hover {
+    transition: ease all 1s;
+    transform: scale(0.7);
+
+}
+
+.menum {
+    height: 90px;
+    width: inherit;
+    background-color:white;
+    align-items: center;
+    display: flex;
+    
+}
+
+.home {
+    height: 70px;
+    width: 1000px;
+    display: flex;
+    flex-grow: 2;
+    gap: 50px;
+  
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+
+.menu {
+    color:black;
+    
+    padding: 15px 10px 20px 10px;
+    font-family:cursive;
+    display: flex;
+}
+.menu:hover{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.search{
+    width: 300px;
+    height: 60px;
+    border: 2px solid black;
+    margin-right: 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    opacity: 10px;
+    
+}
+
+#simg{
+    height: 50px;
+    width: 50px;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    margin-top: 10px;
+    
+    
+}
+.img {
+    height: 400px;
+    width: inherit;
+    background-image: url(../images/s1.jpg);
+}
+
+
+.jour {
+    height: 80px;
+    width: inherit;
+    background-color: white;
+    color:black;
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+    font-family:cursive;
+}
+
+.maincard {
+    height: 400px;
+    width: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.cards {
+    height: 380px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 20px;
+    color: #fff;
+    font-family: cursive;
+}
+#end{
+    width: inherit;
+    height: 500px;
+    background-color: black;
+    color: azure;
+}
